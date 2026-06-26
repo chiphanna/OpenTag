@@ -27,6 +27,16 @@ https://github.com/user-attachments/assets/a74fa1cb-add0-463e-a23c-aa09b95d5135
 
 ▶️ **[Watch the demo](https://github.com/user-attachments/assets/a74fa1cb-add0-463e-a23c-aa09b95d5135)** (~50s) — the bot triaging issues in Slack: it renders a breakdown, a table, and a bar chart inline (**generative UI**) and files a ticket only after an **Approve** gate (**human-in-the-loop**).
 
+<div align="center">
+
+### 🚀 Going to production? CopilotKit's managed **Intelligence Platform** is coming soon
+
+Durable threads · persistence · hosted inspection · agents that **learn from human feedback** (CLHF) — the production layer that runs beside your runtime.
+
+**[→ Sign up for Intelligence](https://go.copilotkit.ai/enterprise-intelligence-platform)** &nbsp;·&nbsp; **[Talk to an engineer](https://copilotkit.ai/talk-to-an-engineer)**
+
+</div>
+
 > [!IMPORTANT]
 > **This is a faithful port of CopilotKit's [`examples/slack`](https://github.com/CopilotKit/CopilotKit/tree/main/examples/slack).** It uses the modern (`0.1.x`) bot API — multi-adapter, modals, `respondTo`. A standalone `npm install` is **pending publish**: `@copilotkit/bot-telegram`, `-whatsapp`, and `-store-redis` aren't on npm yet, and the bot packages need a coherent `0.1.x` release. **Until then, run it from the [CopilotKit monorepo](https://github.com/CopilotKit/CopilotKit) as `examples/slack`** (`pnpm --filter slack-example dev`). The moment the packages publish, this repo's `npm install` lights up — see [Run it](#run-it).
 
@@ -179,6 +189,17 @@ npm run check-types    # tsc --noEmit
 > `createBot` API and doesn't run against this code as-is. The Telegram harness
 > (`npm run e2e:telegram`) is a working manual-trigger smoke test — see
 > [`e2e/TELEGRAM-README.md`](./e2e/TELEGRAM-README.md).
+
+## Going to production?
+
+OpenTag is the open, runnable starting point. When you're ready to ship an agent
+for real, **CopilotKit's managed Intelligence Platform** (coming soon) is the
+production layer beside your runtime — durable threads, persistence, hosted
+inspection, and **Continuous Learning from Human Feedback** (agents that improve
+with every interaction). Learn more about [CopilotKit Intelligence](https://www.copilotkit.ai/copilotkit-intelligence).
+
+- **[Sign up for Intelligence →](https://go.copilotkit.ai/enterprise-intelligence-platform)** — get early access to the managed platform.
+- **[Talk to an engineer →](https://copilotkit.ai/talk-to-an-engineer)** — building something real on this? We'd love to help you ship it.
 
 ## Learn more
 
