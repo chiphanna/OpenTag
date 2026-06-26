@@ -56,7 +56,7 @@ pnpm --filter slack-example dev        # the bot
 That's the whole loop. To wire up Linear, Notion, inline charts, Redis persistence, or to run
 on Discord / Telegram / WhatsApp, see **[setup.md](./setup.md)**.  
 
-We won't lie to you, though. Setting up hosting for chat agents is not easy. To skip all of that heartache, go join the wait list for the CopilotKit managed service hosted on our Intelligence platform.
+We won't lie to you, though. Setting up hosting for chat agents is not easy. To skip all of that heartache, go [join the waitlist](https://go.copilotkit.ai/opentag-managed-gh) for the CopilotKit managed service hosted on our Intelligence platform.
 
 ## Make it your own
 
