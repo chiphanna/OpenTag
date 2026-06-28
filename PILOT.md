@@ -1,3 +1,10 @@
+> **STATUS — concluded learning pilot (superseded).** A proof-of-concept that a
+> self-hosted Slack agent (OpenTag + Claude) could run a guided "Skill Builder"
+> and answer data questions. It worked — but the production path for TurboTenant
+> is **Cursor Cloud Agents** (already in use by CX), not this. Kept for reference
+> only. The real system lives in the `#skills` catalog + the Cursor "#skills
+> router" automation.
+
 # Skill Builder pilot (OpenTag fork)
 
 This is a **pilot** of OpenTag (CopilotKit's open "Claude-in-Slack") repurposed as
